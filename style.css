@@ -1,0 +1,50 @@
+.j{color: red;}
+.f{float: right;}
+.m{color: gray;}
+ h1 {
+            text-align: center;
+            color: grey;
+            padding-top: 40vh;
+        }
+
+  .btn-3d {
+  display: inline-block;      
+  text-decoration: none;      
+  background-color:black;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px black;
+  transition: 0.2s;
+}
+
+.btn-3d:hover {
+  background-color: black;
+}
+
+.btn-3d:active {
+  box-shadow: 0 2px blueviolet;
+  transform: translateY(4px);
+}
+@font-face{
+font-family: "Ubuntu-Light";
+src:url(./fonts/Ubuntu-Light.ttf)
+}
+p{font-family: "Ubuntu-Light"; 
+font-style: normal;
+font-weight: bold;
+text-align: justify;}
+@font-face{
+    font-family: "Ubuntu-Bold";
+    src:url(./fonts/Ubuntu-Bold.ttf)
+}
+h2{font-family: "Ubuntu-Bold";
+text-decoration: underline;}
+body {
+  background: linear-gradient(to right, white, gray);
+}
+h2:hover{background-color:wheat;
+color: rgba(19, 162, 192, 0.69);}
+h2{color: brown;}
